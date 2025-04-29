@@ -15,7 +15,7 @@
 
 
   "paths": {
-    "/api/triage": {
+    "/api/advies": {
       "get": {
         "summary": "Geef zorgadvies op basis van triagekenmerken",
         "parameters": [
