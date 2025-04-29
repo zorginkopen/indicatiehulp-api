@@ -11,10 +11,10 @@ with open('beslisboom.json', encoding='utf-8') as f:
 def zoek_profiel(adl, gedrag, cognitie, mantelzorg):
     for regel in beslisboom:
         voorwaarden = regel['voorwaarden']
-        if (voorwaarden['adl'] == adl and
-            voorwaarden['gedrag'] == gedrag and
-            voorwaarden['cognitie'] == cognitie and
-            voorwaarden['mantelzorg'] == mantelzorg):
+        if (voorwaarden['adl'].lower().strip() == adl.lower().strip() and
+            voorwaarden['gedrag'].lower().strip() == gedrag.lower().strip() and
+            voorwaarden['cognitie'].lower().strip() == cognitie.lower().strip() and
+            voorwaarden['mantelzorg'].lower().strip() == mantelzorg.lower().strip()):
             return regel
     return None
 
