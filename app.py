@@ -34,7 +34,7 @@ def triage_get():
             "onderbouwing": "De combinatie van kenmerken komt niet overeen met een bekend profiel. Overweeg nadere analyse."
         })
 
-@app.route('/api/advies', methods=['POST'])
+@app.route('/', methods=['POST'])
 def triage_post():
     data = request.json
     result = zoek_profiel(
