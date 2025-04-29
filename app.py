@@ -18,7 +18,7 @@ def zoek_profiel(adl, gedrag, cognitie, mantelzorg):
             return regel
     return None
 
-@app.route('/', methods=['GET'])
+@app.route('/openapi.json', methods=['GET'])
 def triage_get():
     adl = request.args.get('adl')
     gedrag = request.args.get('gedrag')
@@ -34,7 +34,7 @@ def triage_get():
             "onderbouwing": "De combinatie van kenmerken komt niet overeen met een bekend profiel. Overweeg nadere analyse."
         })
 
-@app.route('/', methods=['POST'])
+@app.route('/openapi.json', methods=['POST'])
 def triage_post():
     data = request.json
     result = zoek_profiel(
