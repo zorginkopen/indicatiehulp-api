@@ -18,7 +18,7 @@ def zoek_profiel(adl, gedrag, cognitie, mantelzorg):
             return regel
     return None
 
-@app.route('/api/triage', methods=['GET'])
+@app.route('/', methods=['GET'])
 def triage_get():
     adl = request.args.get('adl')
     gedrag = request.args.get('gedrag')
