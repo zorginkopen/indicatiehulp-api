@@ -1,0 +1,75 @@
+
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Indicatiehulp Triage API",
+    "version": "1.0.0",
+    "description": "API voor het geven van een zorgadvies op basis van cliëntkenmerken (adl, gedrag, cognitie, mantelzorg)."
+  },
+
+},
+  "servers": [
+    {
+      "url": "https://indicatiehulp-api.onrender.com"
+    }
+
+
+  "paths": {
+    "/api/advies": {
+      "get": {
+        "summary": "Geef zorgadvies op basis van triagekenmerken",
+        "parameters": [
+          {
+            "name": "adl",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Mate van ADL-beperking (licht, matig, ernstig)"
+          },
+          {
+            "name": "gedrag",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Gedragskenmerk (bijv. stabiel, onvoorspelbaar, agressief, afhankelijk, sociaal teruggetrokken, etc.)"
+          },
+          {
+            "name": "cognitie",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Cognitieve toestand (intact, licht beperkt, matig beperkt, ernstig verstoord, vertraagd)"
+          },
+          {
+            "name": "mantelzorg",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Beschikbaarheid van mantelzorg (aanwezig, afwezig, beperkt, onvoldoende, niet beschikbaar)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Zorgadvies met onderbouwing",
+            "content": {
+              "application/json": {
+                "example": {
+                  "advies": "WLZ VV5",
+                  "onderbouwing": "Cliënt heeft ernstige beperkingen met gedragsproblemen en verstoorde cognitie. Structureel toezicht vereist."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
