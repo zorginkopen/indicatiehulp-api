@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
 import json
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 # Beslisboom laden
 with open('beslisboom.json', encoding='utf-8') as f:
@@ -20,20 +22,23 @@ def zoek_profiel(adl, gedrag, cognitie, mantelzorg):
 
 @app.route('/api/advies', methods=['POST'])
 def advies():
-    data = request.json
-    result = zoek_profiel(
-        data.get('adl'),
-        data.get('gedrag'),
-        data.get('cognitie'),
-        data.get('mantelzorg')
-    )
-    if result:
-        return jsonify(result)
-    else:
-        return jsonify({
-            "advies": "Geen exacte match gevonden.",
-            "onderbouwing": "Geen profiel past volledig. Overweeg nadere analyse."
-        })
+    try:
+        data = request.get_json(force=True)
+        result = zoek_profiel(
+            data.get('adl', ''),
+            data.get('gedrag', ''),
+            data.get('cognitie', ''),
+            data.get('mantelzorg', '')
+        )
+        if result:
+            return jsonify(result), 200
+        else:
+            return jsonify({
+                "advies": "Geen exacte match gevonden.",
+                "onderbouwing": "Geen profiel past volledig. Overweeg nadere analyse."
+            }), 200
+    except Exception as e:
+        return jsonify({"fout": "Interne serverfout", "details": str(e)}), 500
 
 @app.route('/openapi.json')
 def serve_openapi():
