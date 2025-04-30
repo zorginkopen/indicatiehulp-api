@@ -1,9 +1,9 @@
 {
-  "openapi": "3.0.0",
+  "openapi": "3.1.0",
   "info": {
-    "title": "Indicatiehulp Triage API",
+    "title": "Indicatieadvies API",
     "version": "1.0.0",
-    "description": "API voor het geven van een zorgadvies op basis van cliëntkenmerken (adl, gedrag, cognitie, mantelzorg)."
+    "description": "Geeft een zorgadvies op basis van cliëntkenmerken."
   },
   "servers": [
     {
@@ -13,7 +13,8 @@
   "paths": {
     "/api/advies": {
       "post": {
-        "summary": "Geef indicatieadvies",
+        "operationId": "geefIndicatieadvies",
+        "summary": "Vraag een zorgadvies op",
         "requestBody": {
           "required": true,
           "content": {
@@ -46,12 +47,19 @@
         },
         "responses": {
           "200": {
-            "description": "Succesvol advies",
+            "description": "Zorgadvies response",
             "content": {
               "application/json": {
-                "example": {
-                  "advies": "WLZ VV5",
-                  "onderbouwing": "Cliënt heeft ernstige beperkingen met gedragsproblemen."
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "advies": {
+                      "type": "string"
+                    },
+                    "onderbouwing": {
+                      "type": "string"
+                    }
+                  }
                 }
               }
             }
