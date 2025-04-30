@@ -14,12 +14,13 @@ def zoek_profiel(adl, gedrag, cognitie, mantelzorg):
     for profiel in beslisboom:
         v = profiel["voorwaarden"]
         if (
-            v["adl"].strip().lower() == adl.strip().lower() and
-            v["gedrag"].strip().lower() == gedrag.strip().lower() and
-            v["cognitie"].strip().lower() == cognitie.strip().lower() and
-            v["mantelzorg"].strip().lower() == mantelzorg.strip().lower()
+            v.get("adl", "").strip().lower() == adl.strip().lower() and
+            v.get("gedrag", "").strip().lower() == gedrag.strip().lower() and
+            v.get("cognitie", "").strip().lower() == cognitie.strip().lower() and
+            v.get("mantelzorg", "").strip().lower() == mantelzorg.strip().lower()
         ):
             return profiel
+    # Fallback
     return {
         "advies": "Geen exacte match gevonden.",
         "onderbouwing": "Geen profiel gevonden. Controleer de ingevoerde waarden of kies een profiel met vergelijkbare kenmerken."
@@ -29,6 +30,7 @@ def zoek_profiel(adl, gedrag, cognitie, mantelzorg):
 def advies():
     try:
         data = request.get_json(force=True)
+        print("Ontvangen kenmerken:", data)
         result = zoek_profiel(
             data.get("adl", ""),
             data.get("gedrag", ""),
@@ -37,6 +39,7 @@ def advies():
         )
         return jsonify(result)
     except Exception as e:
+        print("Fout bij verwerking:", str(e))
         return jsonify({"error": "Serverfout", "details": str(e)}), 500
 
 @app.route("/openapi.json")
