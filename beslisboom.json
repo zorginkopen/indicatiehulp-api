@@ -8,8 +8,7 @@
         "mantelzorg": "aanwezig"
       },
       "advies": "WLZ VV1",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-d5c04a3a"
+      "onderbouwing": "Minimale zorg bij lichte beperkingen in geclusterde setting."
     },
     {
       "voorwaarden": {
@@ -19,8 +18,7 @@
         "mantelzorg": "beperkt"
       },
       "advies": "WLZ VV2",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-c8c043c9"
+      "onderbouwing": "Toenemende behoefte aan ADL-ondersteuning met toezicht."
     },
     {
       "voorwaarden": {
@@ -30,8 +28,7 @@
         "mantelzorg": "aanwezig"
       },
       "advies": "WLZ VV3",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-97556363"
+      "onderbouwing": "Beginnende cognitieve problematiek met lichte gedragsveranderingen."
     },
     {
       "voorwaarden": {
@@ -41,8 +38,7 @@
         "mantelzorg": "beperkt beschikbaar"
       },
       "advies": "WLZ VV4",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-a0707053"
+      "onderbouwing": "Toenemende ADL-beperkingen en lichte cognitieve achteruitgang."
     },
     {
       "voorwaarden": {
@@ -52,8 +48,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "WLZ VV5",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-13973e22"
+      "onderbouwing": "Gedragsproblemen en verstoorde cognitie met structureel toezicht."
     },
     {
       "voorwaarden": {
@@ -63,8 +58,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "WLZ VV6",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-c12e4d19"
+      "onderbouwing": "Volledige overname van zorg noodzakelijk."
     },
     {
       "voorwaarden": {
@@ -74,8 +68,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WLZ VV7",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-46854089"
+      "onderbouwing": "Gedragsproblematiek en volledige afhankelijkheid."
     },
     {
       "voorwaarden": {
@@ -85,8 +78,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "WLZ VV8",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-1b1bd3e8"
+      "onderbouwing": "Zeer complexe zorg met 24-uurs toezicht."
     },
     {
       "voorwaarden": {
@@ -96,8 +88,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WLZ VV9",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-9dd56f89"
+      "onderbouwing": "Intensieve begeleiding bij verstandelijke beperkingen."
     },
     {
       "voorwaarden": {
@@ -107,8 +98,7 @@
         "mantelzorg": "onvoldoende"
       },
       "advies": "WLZ VV10",
-      "onderbouwing": "Cliënt vertoont ernstige lichamelijke en/of psychogeriatrische problematiek met een blijvende behoefte aan verpleging, verzorging en toezicht. Deze zorgvraag valt onder de Wlz-grondslag somatische of psychogeriatrische aandoening en vereist een verblijf met zorg in een instelling of thuis met 24/7 toezicht.",
-      "id": "wlz-4bd7c84b"
+      "onderbouwing": "Maximale zorgzwaarte met gedragsregulatie en toezicht."
     },
     {
       "voorwaarden": {
@@ -118,8 +108,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WLZ GGZ-B",
-      "onderbouwing": "Cliënt heeft een psychische stoornis en is vanwege complexe gedragsproblematiek langdurig afhankelijk van toezicht of begeleiding. Er is sprake van ernstig nadeel bij het ontbreken van zorg, en de behoefte aan ondersteuning is blijvend van aard. Toegang tot de Wlz is gerechtvaardigd op basis van grondslag GGZ.",
-      "id": "wlz-a7d0aa08"
+      "onderbouwing": "Beschermd wonen met langdurige psychiatrische ondersteuning."
     },
     {
       "voorwaarden": {
@@ -129,8 +118,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "WLZ GGZ-C",
-      "onderbouwing": "Cliënt heeft een psychische stoornis en is vanwege complexe gedragsproblematiek langdurig afhankelijk van toezicht of begeleiding. Er is sprake van ernstig nadeel bij het ontbreken van zorg, en de behoefte aan ondersteuning is blijvend van aard. Toegang tot de Wlz is gerechtvaardigd op basis van grondslag GGZ.",
-      "id": "wlz-27d380b0"
+      "onderbouwing": "Langdurige klinische behandeling met intensieve begeleiding."
     },
     {
       "voorwaarden": {
@@ -140,8 +128,7 @@
         "mantelzorg": "beperkt"
       },
       "advies": "WLZ VG1",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-7e2a33fa"
+      "onderbouwing": "Lichte verstandelijke beperking met beperkte toezichtbehoefte."
     },
     {
       "voorwaarden": {
@@ -151,8 +138,7 @@
         "mantelzorg": "aanwezig"
       },
       "advies": "WLZ VG2",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-95f779e7"
+      "onderbouwing": "Frequente ondersteuning in beschermde omgeving."
     },
     {
       "voorwaarden": {
@@ -162,8 +148,7 @@
         "mantelzorg": "beperkt"
       },
       "advies": "WLZ VG3",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-f2aeabf7"
+      "onderbouwing": "Beperkte zelfredzaamheid met behoefte aan gestructureerde zorg."
     },
     {
       "voorwaarden": {
@@ -173,8 +158,7 @@
         "mantelzorg": "beperkt"
       },
       "advies": "WLZ VG4",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-de647434"
+      "onderbouwing": "Dagstructuur nodig bij gedrags- en cognitieve problematiek."
     },
     {
       "voorwaarden": {
@@ -184,8 +168,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WLZ VG5",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-0dba9466"
+      "onderbouwing": "Volledige zorg en voortdurende begeleiding noodzakelijk."
     },
     {
       "voorwaarden": {
@@ -195,8 +178,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WLZ VG6",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-16e46061"
+      "onderbouwing": "Specifieke woonomgeving vereist bij complexe beperkingen."
     },
     {
       "voorwaarden": {
@@ -206,8 +188,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "WLZ VG7",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-73eb1199"
+      "onderbouwing": "1-op-1 begeleiding bij gedragsproblemen noodzakelijk."
     },
     {
       "voorwaarden": {
@@ -217,8 +198,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WLZ VG8",
-      "onderbouwing": "Cliënt heeft een verstandelijke beperking met een blijvende behoefte aan toezicht, begeleiding en verzorging. De beperking belemmert structureel het functioneren in het dagelijks leven en voldoet aan de Wlz-grondslag verstandelijke handicap (VG).",
-      "id": "wlz-a417d11a"
+      "onderbouwing": "Maximale zorg bij ernstig verstandelijke beperking en gedragsproblematiek."
     },
     {
       "voorwaarden": {
@@ -228,8 +208,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WLZ LG",
-      "onderbouwing": "Cliënt heeft een lichamelijke beperking die leidt tot blijvende noodzaak voor 24-uurs toezicht en/of aanwezige hulp. Deze zorgbehoefte is structureel en valt onder de grondslag lichamelijke handicap (LG) volgens het CIZ-beoordelingskader voor de Wlz.",
-      "id": "wlz-4127f92a"
+      "onderbouwing": "Blijvende lichamelijke beperking met intensieve lichamelijke zorg."
     },
     {
       "voorwaarden": {
@@ -239,8 +218,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "WLZ ZG",
-      "onderbouwing": "Specialistische ondersteuning bij zintuiglijke beperkingen.",
-      "id": "wlz-2a72f2e0"
+      "onderbouwing": "Specialistische ondersteuning bij zintuiglijke beperkingen."
     },
     {
       "voorwaarden": {
@@ -250,8 +228,7 @@
         "mantelzorg": "aanwezig"
       },
       "advies": "ZVW Wijkverpleging",
-      "onderbouwing": "Persoonlijke verzorging of verpleging bij ziekte of beperking, uitgevoerd door een verpleegkundige in de thuissituatie op basis van indicatie conform de Zorgverzekeringswet.",
-      "id": "zvw-6f085fab"
+      "onderbouwing": "Thuiszorg voor persoonlijke verzorging/verpleging."
     },
     {
       "voorwaarden": {
@@ -261,8 +238,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "ZVW Eerstelijnsverblijf",
-      "onderbouwing": "Tijdelijk verblijf in een zorginstelling voor medisch noodzakelijke zorg of observatie, wanneer thuiszorg tijdelijk niet volstaat. Indicatie via huisarts of wijkverpleegkundige.",
-      "id": "zvw-00e23d8d"
+      "onderbouwing": "Tijdelijke opname voor herstel of observatie."
     },
     {
       "voorwaarden": {
@@ -272,8 +248,7 @@
         "mantelzorg": "aanwezig"
       },
       "advies": "ZVW Palliatieve Terminale Zorg",
-      "onderbouwing": "Verpleging en verzorging in de laatste levensfase, gericht op symptoombestrijding en comfort. Deze zorg wordt geleverd in de thuissituatie door gespecialiseerde verpleegkundigen en valt onder de Zvw.",
-      "id": "zvw-31105447"
+      "onderbouwing": "Zorg gericht op comfort in laatste levensfase."
     },
     {
       "voorwaarden": {
@@ -283,8 +258,7 @@
         "mantelzorg": "beperkt"
       },
       "advies": "ZVW Verpleging bij chronische aandoening",
-      "onderbouwing": "Verpleging in de thuissituatie bij langdurige lichamelijke aandoeningen zoals MS of Parkinson, op basis van een verpleegkundige indicatie volgens de Zorgverzekeringswet. Deze zorg is gericht op ondersteuning bij medicatietoediening, symptoommonitoring of hulp bij medische handelingen.",
-      "id": "zvw-66ea4ea4"
+      "onderbouwing": "Langdurige verpleging bij bijvoorbeeld MS of Parkinson."
     },
     {
       "voorwaarden": {
@@ -294,8 +268,7 @@
         "mantelzorg": "aanwezig"
       },
       "advies": "WMO Begeleiding Individueel",
-      "onderbouwing": "Individuele begeleiding bij het structureren van het dagelijks leven, gericht op het versterken van zelfredzaamheid en het voorkomen van verwaarlozing of terugval. Wordt ingezet als er geen passende zorg mogelijk is binnen het eigen netwerk.",
-      "id": "wmo-9f53dbd6"
+      "onderbouwing": "Ondersteuning bij zelfredzaamheid en structuur."
     },
     {
       "voorwaarden": {
@@ -305,8 +278,7 @@
         "mantelzorg": "beperkt"
       },
       "advies": "WMO Begeleiding Groep",
-      "onderbouwing": "Dagbesteding in groepsverband ter ondersteuning van sociale participatie, activering en structuur. Voorkomt sociaal isolement bij cliënten met beperkingen in gedrag of cognitie.",
-      "id": "wmo-c9ecaa1c"
+      "onderbouwing": "Dagbesteding met activering in groepsverband."
     },
     {
       "voorwaarden": {
@@ -316,8 +288,7 @@
         "mantelzorg": "afwezig"
       },
       "advies": "WMO Huishoudelijke Ondersteuning",
-      "onderbouwing": "Ondersteuning bij huishoudelijke taken zoals schoonmaken, wassen en opruimen, wanneer iemand dit vanwege beperkingen niet zelfstandig kan uitvoeren en het netwerk dit niet kan overnemen.",
-      "id": "wmo-49587855"
+      "onderbouwing": "Ondersteuning bij huishoudelijke taken."
     },
     {
       "voorwaarden": {
@@ -327,8 +298,7 @@
         "mantelzorg": "overbelast"
       },
       "advies": "WMO Respijtzorg",
-      "onderbouwing": "Tijdelijke vervangende zorg ter ontlasting van een overbelaste mantelzorger. Wordt ingezet om overbelasting te voorkomen of terugval in het zorgsysteem te vermijden.",
-      "id": "wmo-7822be91"
+      "onderbouwing": "Tijdelijke vervanging van mantelzorg."
     },
     {
       "voorwaarden": {
@@ -338,8 +308,7 @@
         "mantelzorg": "niet beschikbaar"
       },
       "advies": "WMO Beschermd Wonen",
-      "onderbouwing": "Begeleid wonen in een beschermde woonomgeving voor cliënten met psychische of psychosociale problematiek die niet zelfstandig kunnen wonen en baat hebben bij toezicht en ondersteuning op maat.",
-      "id": "wmo-3ce347b1"
+      "onderbouwing": "Begeleid wonen bij psychische of sociale problemen."
     },
     {
       "voorwaarden": {
@@ -349,8 +318,7 @@
         "mantelzorg": "aanwezig"
       },
       "advies": "WMO Woonvoorzieningen",
-      "onderbouwing": "Aanpassing van de woning voor cliënten met fysieke beperkingen, zoals een traplift of aangepaste douche. Wordt toegekend op basis van belemmeringen in mobiliteit en veilig zelfstandig wonen.",
-      "id": "wmo-43f1e4fb"
+      "onderbouwing": "Woningaanpassingen bij mobiliteitsproblemen."
     },
     {
       "voorwaarden": {
@@ -360,25 +328,7 @@
         "mantelzorg": "beperkt"
       },
       "advies": "WMO Vervoersvoorziening",
-      "onderbouwing": "Regeling voor aangepast vervoer bij cliënten die niet zelfstandig gebruik kunnen maken van het reguliere openbaar vervoer. Doel is deelname aan maatschappelijk verkeer te ondersteunen.",
-      "id": "wmo-a3bbcc98"
-    },
-    {
-      "voorwaarden": {
-        "adl": "matig",
-        "gedrag": "verward",
-        "cognitie": "licht beperkt",
-        "mantelzorg": "afwezig"
-      },
-      "advies": "WLZ GGZ Beschermd Wonen",
-      "onderbouwing": "Cliënt heeft langdurige psychische problematiek met verward gedrag en beperkte cognitieve vermogens. Door het ontbreken van mantelzorg en de blijvende aard van de zorgvraag is 24-uurs toezicht en begeleiding noodzakelijk. Indicatie via het CIZ op grond van de Wet langdurige zorg (grondslag GGZ).",
-      "id": "wlz-6ea0bcf7"
-    },
-    {
-      "id": "fallback-0000",
-      "voorwaarden": {},
-      "advies": "Geen exacte match gevonden.",
-      "onderbouwing": "De combinatie van kenmerken komt niet overeen met een bestaand profiel. Overweeg handmatig advies of raadpleeg de meest vergelijkbare zorgvormen op basis van ADL en cognitieve belasting. Bijvoorbeeld:\n- WMO Begeleiding Groep bij lichte beperkingen en sociaal isolement\n- ZVW Wijkverpleging bij fysieke beperkingen en chronische aandoeningen\n- WLZ VG of GGZ bij blijvende afhankelijkheid met gedragsproblematiek"
+      "onderbouwing": "Vervoer voor mensen die geen gebruik kunnen maken van OV."
     }
   ]
 }
