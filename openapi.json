@@ -3,7 +3,7 @@
   "info": {
     "title": "Indicatieadvies API",
     "version": "1.0.0",
-    "description": "Geeft een zorgadvies op basis van cliëntkenmerken."
+    "description": "Geeft op basis van cliëntkenmerken een WLZ, ZVW of WMO-advies terug."
   },
   "servers": [
     {
@@ -14,7 +14,7 @@
     "/api/advies": {
       "post": {
         "operationId": "geefIndicatieadvies",
-        "summary": "Vraag een zorgadvies op",
+        "summary": "Haal zorgadvies op",
         "requestBody": {
           "required": true,
           "content": {
@@ -47,7 +47,7 @@
         },
         "responses": {
           "200": {
-            "description": "Zorgadvies response",
+            "description": "Adviesprofiel",
             "content": {
               "application/json": {
                 "schema": {
